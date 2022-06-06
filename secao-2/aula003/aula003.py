@@ -1,0 +1,6 @@
+print("Meu texto com aspas duplas (str)")
+print('Meu texto com aspas simpĺes (str)')
+print('Mencionando o termo "str"!')
+print("Mencionando o termo 'str'!")
+print('Podemos usar \'barras invertidas\'')
+print("Podemos usar \"barras invertidas\"")
