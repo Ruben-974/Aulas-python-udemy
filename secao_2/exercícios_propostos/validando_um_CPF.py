@@ -17,14 +17,23 @@ CPF = 168.995.350-09
 Digito 1 = 0          #   Digito 2 = 9
 """
 
-cpf = '087630362900'  # input('Digite um CPF: ')
+cpf = '212.823.842-01'  # input('Digite um CPF: ')
 
 if '.' in cpf or '-' in cpf:
     for c in '.-':
         cpf = cpf.replace(c, '')
 
-if not cpf.isnumeric() or len(cpf) > 11:
-    print('ERRO: Digite somente números de 11 dígitos')
+verificar = not cpf.isnumeric(), len(cpf) > 11, cpf[0] * 11 == cpf
+
+if True in verificar:
+
+    if verificar[0]:
+        print('ERRO: Digite apenas números!')
+    elif verificar[1]:
+        print('ERRO: Digite apenas 11 números!')
+    elif verificar[2]:
+        print('ERRO: Números repetitivos são inválidos!')
+
     exit()
 
 new_cpf = cpf[:-2]
