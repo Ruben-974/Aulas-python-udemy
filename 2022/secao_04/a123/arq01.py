@@ -2,11 +2,11 @@ person = {
     'name': 'Israel',
     'years': 18
 }
-    
+
 print(person.get('surname'))
 print(person.get('name'))
-#years = person.pop('years') # similar to dell
-#item = person.popitem()
+# years = person.pop('years') # similar to dell
+# item = person.popitem()
 
 print(person)
 
