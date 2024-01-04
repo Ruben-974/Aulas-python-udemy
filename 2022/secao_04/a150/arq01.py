@@ -6,7 +6,6 @@ try:
 
 except (TypeError, ZeroDivisionError) as error:
 
-
     print(f'MSG: {error}')
     print(f'ERROR: {error.__class__.__name__}')
 
