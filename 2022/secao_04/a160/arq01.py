@@ -11,9 +11,9 @@ def prt(lt):
 
 products = [
     {'name': 'product 1', 'value': 9.4},
-    {'name': 'product 4', 'value': 3.7},
+    {'name': 'product 2', 'value': 3.7},
     {'name': 'product 3', 'value': 2.0},
-    {'name': 'product 2', 'value': 6.0},
+    {'name': 'product 4', 'value': 6.0},
     {'name': 'product 5', 'value': 9},
 ]
 
@@ -33,7 +33,7 @@ prt(new_value)
 # Gere produtos_ordenados_por_nome por deep copy (cópia profunda)
 
 sorted_by_name = deepcopy(products)
-sorted_by_name.sort(key=lambda products: products['name'])
+sorted_by_name.sort(key=lambda products: products['name'], reverse=True)
 
 prt(sorted_by_name)
 
@@ -42,7 +42,7 @@ prt(sorted_by_name)
 
 sorted_by_value = deepcopy(products)
 
-sorted_by_value.sort(key=lambda products: products['value'], reverse=True)
+sorted_by_value.sort(key=lambda products: products['value'])
 
 prt(sorted_by_value)
 
