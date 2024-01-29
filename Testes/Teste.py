@@ -1,32 +1,12 @@
-"""x = 0
+def meu_decorador(funcao):
+    def wrapper():
+        print("Antes da execução da função")
+        funcao()
+        print("Depois da execução da função")
+    return wrapper
 
-def sum_numbers(x):
+@meu_decorador
+def minha_funcao():
+    print("Minha função")
 
-    def sum(y):
-
-        nonlocal x
-
-        x += y
-
-        return x
-
-    return sum
-
- 
-sum_in_nine = sum_numbers(9)
-print(sum_in_nine(4))
-print(sum_in_nine(7))"""
-
-x = 5
-
-def sum(y):
-
-    x += y
-
-    return x
-
-print(x)
-
-sum(9)
-
-print(x)
+minha_funcao()
