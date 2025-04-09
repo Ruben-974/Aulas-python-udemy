@@ -11,7 +11,6 @@ def format(iterable):
     print()
 
 
-
 person = ['Jack', 'Anne', 'Julie', 'Marks']
 shirt = [['white', 'black'],
          ['P', 'M', 'G'],
