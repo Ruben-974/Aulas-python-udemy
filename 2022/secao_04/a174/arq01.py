@@ -1,6 +1,6 @@
 # Combinations, Permutations and Product - Itertools
 # Combination - Order not important
-# Permutation - order matters
+# Permutation - Order is important
 # Product - Order imports and repeats unique values
 
 from itertools import combinations, permutations, product
