@@ -1,0 +1,23 @@
+{
+    "Numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "string": "Txt",
+    "negative_nums": [
+        -1,
+        0,
+        1
+    ],
+    "mult_nums": [
+        16,
+        14
+    ],
+    "persons": {
+        "Name": "Jack",
+        "Age": 18
+    }
+}
