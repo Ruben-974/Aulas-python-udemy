@@ -1,6 +1,6 @@
 with open('arq01.txt', 'w+') as arq:
 
-    print('Created the file "arq01.txt" and closed it.')
+    print('Created the file "arq01.py" and closed it.')
     arq.write('Line 1\n')
     arq.write('Line 2\n')
     arq.write('-' * 6 + '\n')
