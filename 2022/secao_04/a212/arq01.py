@@ -1,14 +1,14 @@
 class Pen:
 
     def __init__(self, color='Blue'):
-        self.color_ink = color
+        self._color = color
 
     def get_color(self):
-        return self.color_ink
+        return self._color
 
     @property
     def color(self):
-        return self.color_ink
+        return self._color
 
 
 pen = Pen()
