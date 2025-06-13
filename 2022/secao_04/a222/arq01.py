@@ -1,12 +1,11 @@
 class MyStr(str):
 
     def upper(self):
-        print('upper -> MyStr')
         return super().upper()
 
 
 text = MyStr('test')
-print(text.upper())
+
 
 class A:
 
@@ -30,15 +29,16 @@ class C(B):
 
     def print_latter(self):
         print('C')
-        print(super().print_latter())
+        super(C, self).print_latter()
+        super(B, self).print_latter()
 
-
-print('ola'.upper())
 
 c = C()
-print(c.latter_a)
-print(c.latter_b)
-print(C.latter_c)
 c.print_latter()
+
+#print(c.latter_a)
+#print(c.latter_b)
+#print(C.latter_c)
+#c.print_latter()
 
 
