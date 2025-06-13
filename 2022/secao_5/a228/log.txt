@@ -1,0 +1,8 @@
+Success: POCO F4 is on: True (SmartPhone)
+Error: POCO F4 is on: False (SmartPhone)
+Success: POCO F4 is on: True (SmartPhone)
+Error: POCO F4 is on: False (SmartPhone)
+Success: POCO F4 is on: True (SmartPhone)
+Error: POCO F4 is on: False (SmartPhone)
+Success: POCO F4 is on: True (SmartPhone)
+Error: POCO F4 is on: False (SmartPhone)
